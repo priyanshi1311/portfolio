@@ -239,8 +239,8 @@ const engineer: Developer = {
       const category = btn.getAttribute('data-category');
 
       projectCards.forEach(card => {
-        const cardCat = card.getAttribute('data-category');
-        if (category === 'all' || cardCat === category) {
+        const cardCat = card.getAttribute('data-category') || '';
+        if (category === 'all' || cardCat === category || cardCat.includes(category)) {
           card.style.display = 'flex';
         } else {
           card.style.display = 'none';
@@ -331,6 +331,22 @@ const engineer: Developer = {
       techStack: ["JavaScript", "React", "Node.js", "Open Source", "Git"],
       liveUrl: "https://showmyskills.xyphx.com/",
       githubUrl: "https://github.com/xyphx/ShowMySkills-system.git"
+    },
+    vijayfoods: {
+      title: "Vijay Foods",
+      subtitle: "Premium Pure Indian Spices E-Commerce & Admin Platform",
+      category: "Full Stack",
+      description: "A production-ready e-commerce web platform and comprehensive administrative backoffice designed for Vijay Foods, delivering farm-fresh, FSSAI-certified pure Indian spices with an end-to-end shopping experience.",
+      features: [
+        "Interactive product catalog featuring authentic spices (Red Chilli, Turmeric, Coriander)",
+        "Complete shopping cart, wishlist, and dynamic checkout flow with responsive UI",
+        "Order status tracking system and dealer network registration portal",
+        "Full-featured Admin Dashboard for inventory tracking, customer analytics, and dealer orders",
+        "High-performance Vite build with instant mobile and desktop responsiveness"
+      ],
+      techStack: ["React.js", "Tailwind CSS", "Vite", "JavaScript", "REST APIs", "E-Commerce", "Admin CMS"],
+      liveUrl: "https://vijayfoods.vercel.app/",
+      githubUrl: "https://github.com/priyanshi1311/vijayfoods.git"
     }
   };
 
@@ -491,7 +507,9 @@ PROJECTS:
    Tech: React.js, Tailwind CSS, Node.js, Express, REST APIs
 4. IoT Mart - IoT E-Commerce Project (Live: https://iotmart-sdee.onrender.com/)
    Tech: React.js, Node.js, Express, MongoDB, Tailwind CSS
-5. Xyphx ShowMySkills System - Open Source & Internship Project (Live: https://showmyskills.xyphx.com/ | GitHub: https://github.com/xyphx/ShowMySkills-system.git)
+5. Vijay Foods - Premium Pure Indian Spices E-Commerce & Admin Platform (Live: https://vijayfoods.vercel.app/ | GitHub: https://github.com/priyanshi1311/vijayfoods.git)
+   Tech: React.js, Tailwind CSS, Vite, REST APIs, Admin CMS, E-Commerce
+6. Xyphx ShowMySkills System - Open Source & Internship Project (Live: https://showmyskills.xyphx.com/ | GitHub: https://github.com/xyphx/ShowMySkills-system.git)
    Tech: JavaScript, React, Node.js, Open Source
 
 ACHIEVEMENTS:

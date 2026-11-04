@@ -30,6 +30,7 @@ A modern, high-performance **HTML5 + CSS3 + Vanilla JavaScript** portfolio websi
    - **Cognimation**: Generative AI Learning Assistant
    - **Aromatic Cafe**: [aromatic-cafe.onrender.com](https://aromatic-cafe.onrender.com/)
    - **IoT Mart**: [iotmart-sdee.onrender.com](https://iotmart-sdee.onrender.com/)
+   - **Vijay Foods**: [vijayfoods.vercel.app](https://vijayfoods.vercel.app/) | [GitHub](https://github.com/priyanshi1311/vijayfoods.git)
    - **Xyphx ShowMySkills System**: [showmyskills.xyphx.com](https://showmyskills.xyphx.com/) | [GitHub](https://github.com/xyphx/ShowMySkills-system.git)
 6. **Experience**:
    - **XyphX** (*October 10, 2026 – Present*) — Software Development Intern on flagship project *Show My Skills*.
